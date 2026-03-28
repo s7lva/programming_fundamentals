@@ -2,46 +2,50 @@
 #include <stdbool.h>
 
 int main(){
+   int x;
+   int i;
    int num1;
    bool numprimo;
-   int contador;
-   int candidato;
-   int encontrou;
-   bool teste_primo;
 
-   printf("indique o numero");
-   scanf("%d" , &num1);
-
-
+  do{
+   printf("introduza um numero");
+   scanf("%d" ,&num1);
    
-  for(int i =2 ; i< num1 ; i++){
-    if(num1 % i ==1){
+   if(num1<2){
+    numprimo= false;
+  }else{
+    numprimo=true;
+  }
+
+   for(int i =2 ; i< num1 ; i++){
+    if(num1 % i == 0){
       numprimo = false;
       break;
     }
    }
 
-   
-   if(numprimo== true){
-    printf("O numero indicado é primo");
+
+   if(numprimo){
+    printf(" O numero %d é primo" , num1);
    }else{
-    candidato = num1+=1;
-    encontrou = false;
+    printf(" O numero %d não é primo" , num1);
    }
 
-   while(encontrou == false){
-    bool teste_primo=true;
-      
-    
-    for(int j =2 ; j< candidato ; j++){
-    if(num1 % j ==1){
-      numprimo = false;
+  }while(num1 >0);
+
+   x= num1;
+
+   for(i=x+1 ; ; i++){
+
+    if(numprimo){
       break;
     }
-   }
 
    }
-    return 0;
+   printf("encontrado primo : %d\n" , i);
+
+   return 0;
+
 }
 
 
