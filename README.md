@@ -1,7 +1,5 @@
 # 🚀 Fundamentos de Programação | Engenharia Informática - Lusófona
 
-![GitHub language count](https://img.shields.io/github/languages/count/TEU_USER/Fundamentos-Programacao?style=for-the-badge)
-![GitHub repo size](https://img.shields.io/github/repo-size/TEU_USER/Fundamentos-Programacao?style=for-the-badge)
 
 Este repositório contém a minha jornada na cadeira de **Fundamentos de Programação**. Aqui documento a evolução da minha lógica, desde o clássico `Hello World` até à gestão complexa de memória com apontadores em **Linguagem C**.
 
