@@ -2,6 +2,9 @@
 #include <stdio.h>
 #include <stdbool.h>
 
+//assinatura da função;
+int maior(int *vec, int size);
+
 int main(){
   int valor;
 
